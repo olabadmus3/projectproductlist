@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color:rgb(252 248 245);
+}
+
+#maIn{
+    display: flex;
+    border: 2px solid;
+}
+
+.added{
+    background-color: #fff;
+    /* border: 2px solid red; */
+    margin-right: -20rem;
+    margin-bottom: -14.5rem;
+    width: 280px;
+    height: 40vh;
+    border-radius: 5%;
+}
+
+.added>a>h3{
+    margin: 1rem;
+}
+
+.added>a>img{
+    padding-left: 4.5rem;
+}
+
+.added>a>p{
+    padding-left: 1rem;
+    margin: 1rem;
+}
+
+.cartel{
+    display: flex;
+}
+
+.backGround > img{
+    position: relative;
+    /* border: 2px solid; */
+    height: 220vh;
+    width: 100%;
+
+}
+
+.genLayout{
+    max-width: 1100px;
+    margin: 2rem auto;
+    position: absolute;
+    margin-top: -80rem;
+    /* border: 2px solid; */
+}
+
+.extensionTabs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.extensionTabs > h3{
+    text-transform: capitalize;
+    font-size: 2rem;
+    color:rgb(38 16 8);
+}
+
+#cartAll{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 1rem;
+   
+}
+
+#cartAll>span >i{
+    /* border: 2px solid; */
+    width: 30px;
+    height: 30px;
+    font-size: x-large;
+  
+    
+   
+}
+.All >h3{
+    font-size: larger;
+    /* border: 2px solid; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 100rem;
+    margin-left: -2rem;
+    margin-top: -0.7rem;
+    position: absolute;
+    background-color: hsl(14.02deg 85.98% 41.96%);
+    color: #fff;
+   
+}
+
+.extensionWrapper{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.extensionCard{
+    /* border: 2px solid; */
+    width: 20vw;
+    height: 65vh;
+    border-radius: 6%;
+    background-color: hsl(255deg 4.76% 83.53%);
+}
+
+.extensionCardTop{
+    margin: 1rem;
+}
+
+.extensionCardTop > img{
+    width: 17.5vw;
+    height: 40vh;
+    border-radius: 10%;
+
+}
+
+.extensionCardTop>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 118px;
+    height: 40px;
+    border-radius: 39%;
+    position: absolute;
+    margin-top: -1.5rem;
+    margin-left: 3rem;
+    background-color: #fff;
+    gap: .3rem;
+}
+
+.a>span{
+    display: g;
+}
+
+.conTent{
+    margin: 1rem;
+    display: block;
+}
+
+.conTent>h4{
+    padding-top: .4rem;
+    color: hsl(14.48deg 33.33% 17.06%);
+}
+
+.conTent>h2{
+    padding-top: .5rem;
+    color: hsl(0deg 0% 0%);
+}
+
+.conTent>h1{
+    padding-top: 1rem;
+    color: hsl(14.02deg 85.98% 41.96%);
+}
