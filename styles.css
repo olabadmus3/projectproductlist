@@ -23,15 +23,15 @@ body{
     border-radius: 5%;
 }
 
-.added>a>h3{
+.added>h3{
     margin: 1rem;
 }
 
-.added>a>img{
+.added>img{
     padding-left: 4.5rem;
 }
 
-.added>a>p{
+.added>p{
     padding-left: 1rem;
     margin: 1rem;
 }
@@ -41,16 +41,17 @@ body{
 }
 
 .backGround > img{
-    position: relative;
+    /* position: relative; */
     /* border: 2px solid; */
     height: 220vh;
     width: 100%;
+    background-color: #fff;
 
 }
 
 .genLayout{
     max-width: 1100px;
-    margin: 2rem auto;
+    margin: 5rem ;
     position: absolute;
     margin-top: -80rem;
     /* border: 2px solid; */
@@ -114,7 +115,7 @@ body{
     width: 20vw;
     height: 65vh;
     border-radius: 6%;
-    background-color: hsl(255deg 4.76% 83.53%);
+    /* background-color: hsl(255deg 4.76% 83.53%); */
 }
 
 .extensionCardTop{
@@ -128,19 +129,23 @@ body{
 
 }
 
-.extensionCardTop>a{
+.btn{
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid;
     width: 118px;
     height: 40px;
-    border-radius: 39%;
+    border-radius: 25px;
     position: absolute;
     margin-top: -1.5rem;
     margin-left: 3rem;
     background-color: #fff;
     gap: .3rem;
+}
+
+.btn:hover{
+    background-color:#eeec ;
 }
 
 .a>span{
@@ -166,3 +171,15 @@ body{
     padding-top: 1rem;
     color: hsl(14.02deg 85.98% 41.96%);
 }
+
+@media (max-width:480px){
+    #genLayout{
+        top: 0;
+    }
+    .extensionTabs > h3 {
+        font-size: 24px;
+
+    }
+}
+
+
