@@ -110,8 +110,7 @@ function createCard(item){
     cardContent = `
                 <div class="extensionCardTop">
                     <img src=${item.logo.desktop} alt="dev lens">
-                        <a href="#cartAll"><img src="https://shopdesserts.netlify.app/assets/images/icon-add-to-cart.svg" alt="cart"> 
-                            <h4>Add to Cart</h4></a>
+                       <button class="btn"><img src="https://shopdesserts.netlify.app/assets/images/icon-add-to-cart.svg" alt="cart"><h4>Add to Cart</h4></button>
                 </div>
 
 
